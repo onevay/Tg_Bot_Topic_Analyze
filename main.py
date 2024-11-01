@@ -5,6 +5,11 @@ import app.db as db
 from decouple import config
 from app.ha1 import router
 
+'''в основной папке создаем файл .env
+в него помещаем все приватные данные в следующем формате
+TOKEN = '183758'
+при этом название переменных должны совпадать с теми, что используются в проекте'''
+
 TOKEN = config('TOKEN', cast=str)
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
