@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import matplotlib
 
+'''результат сохраняем на устройстве, чтобы далее отправить
+пользователю, можно использовать другие способы (облако, мгновенный вывод)'''
+
 def plot_topic_distribution(lda_model, num_words=10):
     num_topics = lda_model.num_topics
 
@@ -34,5 +37,3 @@ def plot_topic_distribution(lda_model, num_words=10):
     plt.legend()
     plt.tight_layout()
     plt.savefig('../res1.png')
-
-

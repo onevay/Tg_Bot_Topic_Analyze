@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 
+'''в vizualize написано, почему используется сохранение на устройство'''
+
 def probably_topics(lda_model, dictionary, num_topics):
     matplotlib.use('TkAgg')
     topic_probs = np.zeros(num_topics)
