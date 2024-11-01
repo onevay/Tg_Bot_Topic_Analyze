@@ -1,6 +1,9 @@
 import psycopg2
 from decouple import config
 
+'''ситуация, аналогичная с main
+в файле .env добавляем все данные о бд'''
+
 db_url = config('DB_URL')
 host = config('HOST')
 port = config('PORT')

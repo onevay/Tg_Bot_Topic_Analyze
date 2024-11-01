@@ -11,14 +11,6 @@ import topic_funcs.vizualize as viz
 import topic_funcs.probably as prob
 import topic_funcs.textb as req
 from decouple import config
-
-
-db_url = config('DB_URL')
-host = config('HOST')
-port = config('PORT')
-user = config('USER')
-password = config('PASSWORD')
-database = config('DB_NAME')
 import app.keyboard as kb
 
 router = Router()
