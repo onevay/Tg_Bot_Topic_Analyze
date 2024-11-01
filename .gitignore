@@ -3,6 +3,9 @@
 *.csv
 *.cfg
 
+!(2).csv
+!1.csv
+
 share/
 __pycache__/
 app/__pycache__
