@@ -1,0 +1,10 @@
+.env
+.png
+.csv
+.cfg
+
+share/
+__pycache__/
+app/__pycache__
+topic_funcs/__pycache__
+Lib/
