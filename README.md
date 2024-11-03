@@ -16,11 +16,11 @@ The purpose of the project
 
 <p align=center>First of all, we process the text by normalizing and lemmatizing it. The processed version is analyzed using the LDA model (its advantages will also be discussed) and then the result is visualized and displayed in the form of 2 diagrams.
 <br> <br>
-In addition, the interface of the telegram bot is used with the passage of a questionnaire and a request to an analogue of the GPT chat, which you can read in more detail in the article on the hubr
+In addition, the interface of the telegram bot is used with the passage of a questionnaire and a request to an analogue of the GPT chat, which you can read in more detail in the article on the <a href="https://habr.com/p/855786/">hubr</a>
 </p>
 <br>
 <p align=center>
-  
+ 
 </p>
 <br>
 
